@@ -8,14 +8,14 @@
 // assign a MAC address for the ethernet controller.
 // fill in your address here:
 byte mac[] = {
-  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
+  
 };
 
-const char myLocalIP[] = "192.168.1.158";
+const char myLocalIP[] = "  ";
 const char route[] = "/fire";
-byte ip[] = { 192, 168, 1, 241};
-byte server[] = { 192, 168, 1, 122 };
-byte myDns[] = { 192, 168, 1, 1 };
+byte ip[] = {  };
+byte server[] = {   };
+byte myDns[] = {  };
 
 String data;
 EthernetClient client;
