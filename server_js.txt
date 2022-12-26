@@ -10,7 +10,7 @@ app.get('/fire', async (req, res) => {
     try {
         var config = {
            method: "POST",
-           url: 'https://discord.com/api/webhooks/1053308966010097774/i6GBiPS8IYLiM6LWjHdnCNijwnW_Nl_Pp72aevGdywSfeumLD0KQHaLNgR7XWZcDRanj', // https://discord.com/webhook/url/here
+           url: ' ', // https://discord.com/webhook/url/here
            headers: { "Content-Type": "application/json" },
            data: {
             content: "Fire Detected"
